@@ -18,6 +18,7 @@
 		C4568A5A21E1A2C6000C1D0A /* EditorDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5921E1A2C6000C1D0A /* EditorDefaults.swift */; };
 		C4568A5C21E1A331000C1D0A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5B21E1A331000C1D0A /* DataController.swift */; };
 		C4568A5F21E1A4B5000C1D0A /* HintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5E21E1A4B5000C1D0A /* HintCell.swift */; };
+		C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C4568A5921E1A2C6000C1D0A /* EditorDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorDefaults.swift; sourceTree = "<group>"; };
 		C4568A5B21E1A331000C1D0A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		C4568A5E21E1A4B5000C1D0A /* HintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCell.swift; sourceTree = "<group>"; };
+		C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,7 @@
 			children = (
 				C4568A5021E19D19000C1D0A /* Model */,
 				C4568A5D21E1A479000C1D0A /* View */,
-				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
+				C4568A6021E1A52B000C1D0A /* Support */,
 				C4568A4021E19A75000C1D0A /* ViewController.swift */,
 				C4568A4221E19A75000C1D0A /* Main.storyboard */,
 				C4568A4521E19A76000C1D0A /* Assets.xcassets */,
@@ -104,6 +106,15 @@
 				C4568A5E21E1A4B5000C1D0A /* HintCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C4568A6021E1A52B000C1D0A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
+				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				C4568A5F21E1A4B5000C1D0A /* HintCell.swift in Sources */,
 				C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */,
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
+				C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
