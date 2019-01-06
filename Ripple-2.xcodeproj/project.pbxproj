@@ -32,6 +32,11 @@
 		C45AF77321E1DC5F0064A898 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */; };
 		C45AF77521E1DCC80064A898 /* HintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77421E1DCC80064A898 /* HintViewController.swift */; };
 		C45AF77721E1DD3C0064A898 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */; };
+		C4D10FF221E1E9F300746266 /* ActivityVC in Resources */ = {isa = PBXBuildFile; fileRef = C4D10FED21E1E9F200746266 /* ActivityVC */; };
+		C4D10FF321E1E9F300746266 /* HintVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FEE21E1E9F200746266 /* HintVC+Extension.swift */; };
+		C4D10FF421E1E9F300746266 /* CheckInVC in Resources */ = {isa = PBXBuildFile; fileRef = C4D10FEF21E1E9F300746266 /* CheckInVC */; };
+		C4D10FF521E1E9F300746266 /* HomeVC in Resources */ = {isa = PBXBuildFile; fileRef = C4D10FF021E1E9F300746266 /* HomeVC */; };
+		C4D10FF621E1E9F300746266 /* QuoteVC in Resources */ = {isa = PBXBuildFile; fileRef = C4D10FF121E1E9F300746266 /* QuoteVC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +68,11 @@
 		C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		C45AF77421E1DCC80064A898 /* HintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintViewController.swift; sourceTree = "<group>"; };
 		C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C4D10FED21E1E9F200746266 /* ActivityVC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ActivityVC; path = "../../../../Downloads/Ripple-master/ripple-app/Support/ActivityVC"; sourceTree = "<group>"; };
+		C4D10FEE21E1E9F200746266 /* HintVC+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HintVC+Extension.swift"; path = "../../../../Downloads/Ripple-master/ripple-app/Support/HintVC+Extension.swift"; sourceTree = "<group>"; };
+		C4D10FEF21E1E9F300746266 /* CheckInVC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CheckInVC; path = "../../../../Downloads/Ripple-master/ripple-app/Support/CheckInVC"; sourceTree = "<group>"; };
+		C4D10FF021E1E9F300746266 /* HomeVC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HomeVC; path = "../../../../Downloads/Ripple-master/ripple-app/Support/HomeVC"; sourceTree = "<group>"; };
+		C4D10FF121E1E9F300746266 /* QuoteVC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = QuoteVC; path = "../../../../Downloads/Ripple-master/ripple-app/Support/QuoteVC"; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +165,11 @@
 		C4568A6021E1A52B000C1D0A /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C4D10FED21E1E9F200746266 /* ActivityVC */,
+				C4D10FEF21E1E9F300746266 /* CheckInVC */,
+				C4D10FEE21E1E9F200746266 /* HintVC+Extension.swift */,
+				C4D10FF021E1E9F300746266 /* HomeVC */,
+				C4D10FF121E1E9F300746266 /* QuoteVC */,
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
 				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
 				C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */,
@@ -253,8 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D10FF621E1E9F300746266 /* QuoteVC in Resources */,
+				C4D10FF521E1E9F300746266 /* HomeVC in Resources */,
 				C4568A4921E19A76000C1D0A /* LaunchScreen.storyboard in Resources */,
 				C4568A4621E19A76000C1D0A /* Assets.xcassets in Resources */,
+				C4D10FF221E1E9F300746266 /* ActivityVC in Resources */,
+				C4D10FF421E1E9F300746266 /* CheckInVC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +350,7 @@
 				C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */,
 				C45AF77521E1DCC80064A898 /* HintViewController.swift in Sources */,
 				C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */,
+				C4D10FF321E1E9F300746266 /* HintVC+Extension.swift in Sources */,
 				C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
 				C45AF76821E1DA380064A898 /* TheySaidSoConvenience.swift in Sources */,
