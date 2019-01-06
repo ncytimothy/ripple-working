@@ -12,6 +12,21 @@ Download the Xcode project from the download menu
 
 - You may review the codebase, but possibly may not be able to run the app since the API key is not available in the repo
 
+- If you have the API key for TheySaidSo, you may do the following to add the API key in:
+
+Install the gem for 'cocoapods-keys'
+
+```
+gem install --user-install bundler cocoapods-keys
+```
+
+12. Install the Pod
+```
+pod install
+```
+
+13. Open 'Ripple-2.xcworkspace'
+
 
 
 

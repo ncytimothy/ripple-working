@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		794C1F56A24FFC8FC38E45D5 /* Pods_Ripple_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FB68F688023C2A999A74D9 /* Pods_Ripple_2.framework */; };
-		C413603421E1F045006E1A70 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413603321E1F045006E1A70 /* Reachability.swift */; };
 		C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A3E21E19A75000C1D0A /* AppDelegate.swift */; };
 		C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A4021E19A75000C1D0A /* ViewController.swift */; };
 		C4568A4621E19A76000C1D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4568A4521E19A76000C1D0A /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		11FB68F688023C2A999A74D9 /* Pods_Ripple_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripple_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2631CF23127E4BEF3D36A505 /* Pods-Ripple-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.release.xcconfig"; sourceTree = "<group>"; };
-		C413603321E1F045006E1A70 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = "../../../../../Downloads/Reachability-2.swift-master/Sources/Reachability.swift"; sourceTree = "<group>"; };
 		C413603521E1F2EC006E1A70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4568A3B21E19A75000C1D0A /* Ripple-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ripple-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4568A3E21E19A75000C1D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 		C4D10FFA21E1EB6100746266 /* QuoteViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C413603321E1F045006E1A70 /* Reachability.swift */,
 				C4D10FFB21E1EB7A00746266 /* QuoteViewController+Extension.swift */,
 				C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */,
 			);
@@ -405,7 +402,6 @@
 				C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
 				C4D1100A21E1ED5000746266 /* CheckInViewController+CollectionExtension.swift in Sources */,
-				C413603421E1F045006E1A70 /* Reachability.swift in Sources */,
 				C4B7791F21E2C48B004744EA /* Reachability.swift in Sources */,
 				C45AF76821E1DA380064A898 /* TheySaidSoConvenience.swift in Sources */,
 			);
