@@ -28,6 +28,7 @@
 		C45AF76B21E1DAFA0064A898 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76A21E1DAFA0064A898 /* CustomTabBarController.swift */; };
 		C45AF76D21E1DB3E0064A898 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76C21E1DB3E0064A898 /* HomeViewController.swift */; };
 		C45AF76F21E1DBB30064A898 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76E21E1DBB30064A898 /* QuoteViewController.swift */; };
+		C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77021E1DC200064A898 /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		C45AF76A21E1DAFA0064A898 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		C45AF76C21E1DB3E0064A898 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C45AF76E21E1DBB30064A898 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		C45AF77021E1DC200064A898 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +171,7 @@
 				C45AF76A21E1DAFA0064A898 /* CustomTabBarController.swift */,
 				C45AF76C21E1DB3E0064A898 /* HomeViewController.swift */,
 				C45AF76E21E1DBB30064A898 /* QuoteViewController.swift */,
+				C45AF77021E1DC200064A898 /* ActivityViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */,
 				C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */,
 				C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */,
+				C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
 				C45AF76821E1DA380064A898 /* TheySaidSoConvenience.swift in Sources */,
 			);
