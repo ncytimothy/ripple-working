@@ -109,6 +109,7 @@
 		C4568A3221E19A75000C1D0A = {
 			isa = PBXGroup;
 			children = (
+				C413603521E1F2EC006E1A70 /* README.md */,
 				C4568A3D21E19A75000C1D0A /* Ripple-2 */,
 				C4568A3C21E19A75000C1D0A /* Products */,
 				C095323A831893AE6CB28363 /* Pods */,
@@ -177,7 +178,6 @@
 				C4D1100621E1ED0200746266 /* CheckInViewController */,
 				C4D10FFF21E1EC0E00746266 /* ActivityViewController */,
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
-				C413603521E1F2EC006E1A70 /* README.md */,
 				C4D10FF721E1EAD500746266 /* HomeViewController */,
 				C4D10FFA21E1EB6100746266 /* QuoteViewController */,
 				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
