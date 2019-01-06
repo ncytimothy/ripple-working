@@ -10,13 +10,55 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    enum TabBarControllerConstants {
+        static let HomeViewController = 0
+        static let QuoteViewController = 1
+        static let ActivityViewController = 2
+        static let HistoryViewController = 3
+    }
 
     var window: UIWindow?
+    // DataController init to be injected to initial VC and passed
+    let dataController = DataController(modelName: "Ripple-2")
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let customTabBarController = CustomTabBarController()
+        guard let tabBarViewControllers = customTabBarController.viewControllers else { return true}
+        
+        let quoteVC = tabBarViewControllers[TabBarControllerConstants.QuoteViewController] as! QuoteViewController
+        let homeVC = tabBarViewControllers[TabBarControllerConstants.HomeViewController] as! HomeViewController
+        let activityVC = tabBarViewControllers[TabBarControllerConstants.ActivityViewController] as! ActivityViewController
+        
+        quoteVC.dataController = dataController
+        homeVC.dataController = dataController
+        activityVC.dataController = dataController
+        
+        checkIfFirstLaunch()
+        
+        dataController.load()
+        
+        
+        window?.rootViewController = customTabBarController
+        
         return true
+    }
+    
+    func saveViewContext() {
+        /** Helper Method
+         * Calls save on the Data Controller's view context
+         * To be used in applicationDidEnterBackground and applicationWillTerminate
+         */
+        do {
+            try dataController.viewContext.save()
+        } catch {
+            fatalError("dataController.viewContext cannot be save!")
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -27,6 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        saveViewContext()
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -39,8 +82,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        saveViewContext()
     }
-
-
+    
+    func checkIfFirstLaunch() {
+        if UserDefaults.standard.bool(forKey: "hasLaunchedBefore") {
+            print("App launched before")
+        } else {
+            print("This is the first laucnh ever!")
+            UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+            UserDefaults.standard.set(false, forKey: "setFeelingsBefore")
+        }
+    }
 }
 
