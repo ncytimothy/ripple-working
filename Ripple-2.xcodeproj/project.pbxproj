@@ -19,6 +19,7 @@
 		C4568A5F21E1A4B5000C1D0A /* HintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5E21E1A4B5000C1D0A /* HintCell.swift */; };
 		C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */; };
 		C4568A6421E1A708000C1D0A /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6321E1A708000C1D0A /* QuoteCell.swift */; };
+		C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C4568A5E21E1A4B5000C1D0A /* HintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintCell.swift; sourceTree = "<group>"; };
 		C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		C4568A6321E1A708000C1D0A /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
+		C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				C4568A5E21E1A4B5000C1D0A /* HintCell.swift */,
 				C4568A6321E1A708000C1D0A /* QuoteCell.swift */,
+				C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				C4568A6421E1A708000C1D0A /* QuoteCell.swift in Sources */,
 				C4568A5C21E1A331000C1D0A /* DataController.swift in Sources */,
+				C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */,
 				C4568A5A21E1A2C6000C1D0A /* EditorDefaults.swift in Sources */,
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
 				C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */,
