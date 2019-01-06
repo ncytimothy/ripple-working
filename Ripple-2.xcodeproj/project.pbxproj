@@ -47,6 +47,7 @@
 		11FB68F688023C2A999A74D9 /* Pods_Ripple_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripple_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2631CF23127E4BEF3D36A505 /* Pods-Ripple-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.release.xcconfig"; sourceTree = "<group>"; };
 		C413603321E1F045006E1A70 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = "../../../../../Downloads/Reachability-2.swift-master/Sources/Reachability.swift"; sourceTree = "<group>"; };
+		C413603521E1F2EC006E1A70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4568A3B21E19A75000C1D0A /* Ripple-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ripple-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4568A3E21E19A75000C1D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4568A4021E19A75000C1D0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +177,7 @@
 				C4D1100621E1ED0200746266 /* CheckInViewController */,
 				C4D10FFF21E1EC0E00746266 /* ActivityViewController */,
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
+				C413603521E1F2EC006E1A70 /* README.md */,
 				C4D10FF721E1EAD500746266 /* HomeViewController */,
 				C4D10FFA21E1EB6100746266 /* QuoteViewController */,
 				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
