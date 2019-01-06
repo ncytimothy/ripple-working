@@ -38,6 +38,7 @@
 		C4D1100121E1EC2200746266 /* ActivityViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1100021E1EC2200746266 /* ActivityViewController+Extension.swift */; };
 		C4D1100321E1EC6400746266 /* ActivityViewController+CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1100221E1EC6400746266 /* ActivityViewController+CollectionExtension.swift */; };
 		C4D1100521E1ECB200746266 /* HintViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1100421E1ECB200746266 /* HintViewController+Extension.swift */; };
+		C4D1100821E1ED1800746266 /* CheckInViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1100721E1ED1800746266 /* CheckInViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		C4D1100021E1EC2200746266 /* ActivityViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityViewController+Extension.swift"; sourceTree = "<group>"; };
 		C4D1100221E1EC6400746266 /* ActivityViewController+CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityViewController+CollectionExtension.swift"; sourceTree = "<group>"; };
 		C4D1100421E1ECB200746266 /* HintViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HintViewController+Extension.swift"; sourceTree = "<group>"; };
+		C4D1100721E1ED1800746266 /* CheckInViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CheckInViewController+Extension.swift"; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 		C4568A6021E1A52B000C1D0A /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C4D1100621E1ED0200746266 /* CheckInViewController */,
 				C4D10FFF21E1EC0E00746266 /* ActivityViewController */,
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
 				C4D10FF721E1EAD500746266 /* HomeViewController */,
@@ -225,6 +228,14 @@
 				C4D1100221E1EC6400746266 /* ActivityViewController+CollectionExtension.swift */,
 			);
 			path = ActivityViewController;
+			sourceTree = "<group>";
+		};
+		C4D1100621E1ED0200746266 /* CheckInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4D1100721E1ED1800746266 /* CheckInViewController+Extension.swift */,
+			);
+			path = CheckInViewController;
 			sourceTree = "<group>";
 		};
 		E2E81559CDA4664185BF5508 /* Frameworks */ = {
@@ -359,6 +370,7 @@
 				C4D10FF921E1EB0600746266 /* HomeViewController+Extension.swift in Sources */,
 				C45AF76B21E1DAFA0064A898 /* CustomTabBarController.swift in Sources */,
 				C45AF76F21E1DBB30064A898 /* QuoteViewController.swift in Sources */,
+				C4D1100821E1ED1800746266 /* CheckInViewController+Extension.swift in Sources */,
 				C45AF76D21E1DB3E0064A898 /* HomeViewController.swift in Sources */,
 				C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */,
 				C4D1100521E1ECB200746266 /* HintViewController+Extension.swift in Sources */,
