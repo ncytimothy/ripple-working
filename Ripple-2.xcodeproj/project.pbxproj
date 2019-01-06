@@ -14,6 +14,7 @@
 		C4568A4921E19A76000C1D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4568A4721E19A76000C1D0A /* LaunchScreen.storyboard */; };
 		C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5221E19D48000C1D0A /* GCDMain.swift */; };
 		C4568A5521E19D9D000C1D0A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5421E19D9D000C1D0A /* Page.swift */; };
+		C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5621E19E7A000C1D0A /* Ripple-2.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C4568A4A21E19A76000C1D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4568A5221E19D48000C1D0A /* GCDMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDMain.swift; sourceTree = "<group>"; };
 		C4568A5421E19D9D000C1D0A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C4568A5721E19E7A000C1D0A /* Ripple-2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Ripple-2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		C4568A5021E19D19000C1D0A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C4568A5621E19E7A000C1D0A /* Ripple-2.xcdatamodeld */,
 				C4568A5121E19D3A000C1D0A /* GCD */,
 				C4568A5421E19D9D000C1D0A /* Page.swift */,
 			);
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
+				C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */,
 				C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */,
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
@@ -360,6 +364,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4568A5621E19E7A000C1D0A /* Ripple-2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4568A5721E19E7A000C1D0A /* Ripple-2.xcdatamodel */,
+			);
+			currentVersion = C4568A5721E19E7A000C1D0A /* Ripple-2.xcdatamodel */;
+			path = "Ripple-2.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C4568A3321E19A75000C1D0A /* Project object */;
 }

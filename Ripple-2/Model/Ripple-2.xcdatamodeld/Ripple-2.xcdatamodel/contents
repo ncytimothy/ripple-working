@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Feeling" representedClassName="Feeling" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="feelingString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gratitudes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Gratitude" inverseName="feeling" inverseEntity="Gratitude" syncable="YES"/>
+    </entity>
+    <entity name="Gratitude" representedClassName="Gratitude" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="gratitudeString" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="feeling" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Feeling" inverseName="gratitudes" inverseEntity="Feeling" syncable="YES"/>
+    </entity>
+    <entity name="Quote" representedClassName="Quote" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="quoteString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Quote" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Feeling" positionX="-54" positionY="99.6015625" width="128" height="103"/>
+        <element name="Gratitude" positionX="-235.75390625" positionY="113.50390625" width="128" height="88"/>
+    </elements>
+</model>
