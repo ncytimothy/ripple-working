@@ -20,12 +20,12 @@ Install the gem for 'cocoapods-keys'
 gem install --user-install bundler cocoapods-keys
 ```
 
-12. Install the Pod
+Install the Pod
 ```
 pod install
 ```
 
-13. Open 'Ripple-2.xcworkspace'
+Open 'Ripple-2.xcworkspace'
 
 
 
