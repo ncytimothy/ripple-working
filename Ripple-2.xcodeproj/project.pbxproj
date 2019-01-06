@@ -31,6 +31,7 @@
 		C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77021E1DC200064A898 /* ActivityViewController.swift */; };
 		C45AF77321E1DC5F0064A898 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */; };
 		C45AF77521E1DCC80064A898 /* HintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77421E1DCC80064A898 /* HintViewController.swift */; };
+		C45AF77721E1DD3C0064A898 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		C45AF77021E1DC200064A898 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		C45AF77421E1DCC80064A898 /* HintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintViewController.swift; sourceTree = "<group>"; };
+		C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 			children = (
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
 				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
+				C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
 				C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */,
 				C4568A5F21E1A4B5000C1D0A /* HintCell.swift in Sources */,
+				C45AF77721E1DD3C0064A898 /* UIView+Extensions.swift in Sources */,
 				C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */,
 				C4568A6B21E1A989000C1D0A /* TheySaidSoClient.swift in Sources */,
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
