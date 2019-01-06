@@ -35,6 +35,7 @@
 		C4D10FF921E1EB0600746266 /* HomeViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FF821E1EB0600746266 /* HomeViewController+Extension.swift */; };
 		C4D10FFC21E1EB7A00746266 /* QuoteViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FFB21E1EB7A00746266 /* QuoteViewController+Extension.swift */; };
 		C4D10FFE21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */; };
+		C4D1100121E1EC2200746266 /* ActivityViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D1100021E1EC2200746266 /* ActivityViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		C4D10FF821E1EB0600746266 /* HomeViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Extension.swift"; sourceTree = "<group>"; };
 		C4D10FFB21E1EB7A00746266 /* QuoteViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewController+Extension.swift"; sourceTree = "<group>"; };
 		C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewController+CollectionExtension.swift"; sourceTree = "<group>"; };
+		C4D1100021E1EC2200746266 /* ActivityViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityViewController+Extension.swift"; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 		C4568A6021E1A52B000C1D0A /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C4D10FFF21E1EC0E00746266 /* ActivityViewController */,
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
 				C4D10FF721E1EAD500746266 /* HomeViewController */,
 				C4D10FFA21E1EB6100746266 /* QuoteViewController */,
@@ -208,6 +211,14 @@
 				C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */,
 			);
 			path = QuoteViewController;
+			sourceTree = "<group>";
+		};
+		C4D10FFF21E1EC0E00746266 /* ActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4D1100021E1EC2200746266 /* ActivityViewController+Extension.swift */,
+			);
+			path = ActivityViewController;
 			sourceTree = "<group>";
 		};
 		E2E81559CDA4664185BF5508 /* Frameworks */ = {
@@ -346,6 +357,7 @@
 				C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */,
 				C4568A5A21E1A2C6000C1D0A /* EditorDefaults.swift in Sources */,
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
+				C4D1100121E1EC2200746266 /* ActivityViewController+Extension.swift in Sources */,
 				C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */,
 				C4568A5F21E1A4B5000C1D0A /* HintCell.swift in Sources */,
 				C45AF77721E1DD3C0064A898 /* UIView+Extensions.swift in Sources */,
