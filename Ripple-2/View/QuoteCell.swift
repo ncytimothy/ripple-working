@@ -89,7 +89,7 @@ class QuoteCell: UICollectionViewCell {
             quoteTextView.topAnchor.constraint(equalTo: categoryLabel.bottomAnchor, constant: 10),
             quoteTextView.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 16),
             quoteTextView.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -16),
-            quoteTextView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.425),
+            quoteTextView.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 0.45),
             
             authorLabel.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -12),
             authorLabel.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 16),

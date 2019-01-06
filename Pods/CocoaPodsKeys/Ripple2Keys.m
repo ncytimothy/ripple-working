@@ -13,6 +13,7 @@
 
 @implementation Ripple2Keys
 
+  @dynamic theySaidSoAPIKey;
 
 #pragma clang diagnostic pop
 
@@ -21,6 +22,10 @@
   NSString *key = NSStringFromSelector(name);
   NSString * (*implementation)(Ripple2Keys *, SEL) = NULL;
 
+  if ([key isEqualToString:@"theySaidSoAPIKey"]) {
+    implementation = _podKeys82af733e2c4da3abf5da9ca5921efc26;
+  }
+
   if (!implementation) {
     return [super resolveInstanceMethod:name];
   }
@@ -28,12 +33,23 @@
   return class_addMethod([self class], name, (IMP)implementation, "@@:");
 }
 
+static NSString *_podKeys82af733e2c4da3abf5da9ca5921efc26(Ripple2Keys *self, SEL _cmd)
+{
+  
+    
+      char cString[25] = { Ripple2KeysData[686], Ripple2KeysData[617], Ripple2KeysData[550], Ripple2KeysData[326], Ripple2KeysData[119], Ripple2KeysData[432], Ripple2KeysData[354], Ripple2KeysData[343], Ripple2KeysData[138], Ripple2KeysData[276], Ripple2KeysData[205], Ripple2KeysData[715], Ripple2KeysData[1], Ripple2KeysData[126], Ripple2KeysData[308], Ripple2KeysData[667], Ripple2KeysData[552], Ripple2KeysData[563], Ripple2KeysData[59], Ripple2KeysData[647], Ripple2KeysData[35], Ripple2KeysData[522], Ripple2KeysData[467], Ripple2KeysData[238], '\0' };
+    
+    return [NSString stringWithCString:cString encoding:NSUTF8StringEncoding];
+  
+}
 
-static char Ripple2KeysData[2] = "\\\"";
+
+static char Ripple2KeysData[738] = "j3eZ0qLz8Yi9aiZfFwCcerf3InnUQSj0HhEONYFe3zsX2qHuS/yi8kXb/lo8r8A2H71x9yRJy7wHT0IxxsQg/M+HyvCraz4KB9GmLptMG/AjBPJl/ycw5OkGqUpW/nK3hhTT9IpeWn72/2olBXxe/S0Xqn2DGK/TgwNL1voA1C9Xnnr1EH3SHw+YRGmIywo2iRN10rn0VuorK_W0b5V/KbEFr+toHvmxcZDP01kYTQnR3jFnMgbwX1LbEcK0y1zMUQA01EuuSjnxjeK4pj6EryyqVxK3A3fOGvua3yktdGce9xOsKMkLLvyF7JKvDqXlKd/QuvFwl5sfdu/cbtMvhQYFcn/XoSf8OAkclizR87scgr3tLv/4/B9IgJXK/U5WPxmqtQd7w/1BPr/FBBf1VsGNjKSE7ZOS/KV+QqFQ58xsNN9khU+PH/S/OmlsNAdynsM7tHnGPZCooDoJD+1efkX3/vHrxMHMfu12ZXUgA2emVdA+82In717cY6TYslvf1b4I4eoqarQBQtjriFD4Tx1376daLiTK89ezpf3R5bDfa137xRfVwUA+8Llkt7vkFMvrD3HwWbOPKqOVI8R2lqBR2iNFM+L/w1oesfcFov8lMMoJyd/3D3+1snG34kYSsCw3/8JIHZqjAMyJBdQUpWd1lmuX9EelLyfjfUebgPFJjHYX7/Wwdph8Lypw1Gopc4aDJE8S7kngK9AQI7xUhB4gjWNrar4K\\\"";
 
 - (NSString *)description
 {
   return [@{
+            @"theySaidSoAPIKey": self.theySaidSoAPIKey,
   } description];
 }
 

@@ -10,6 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Ripple2Keys : NSObject
 
+@property (readonly) NSString *theySaidSoAPIKey;
 
 @end
 
