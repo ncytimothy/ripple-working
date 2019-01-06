@@ -25,6 +25,7 @@
 		C4568A6B21E1A989000C1D0A /* TheySaidSoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */; };
 		C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76521E1D9A90064A898 /* TheySaidSoConstants.swift */; };
 		C45AF76821E1DA380064A898 /* TheySaidSoConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76721E1DA380064A898 /* TheySaidSoConvenience.swift */; };
+		C45AF76B21E1DAFA0064A898 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76A21E1DAFA0064A898 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheySaidSoClient.swift; sourceTree = "<group>"; };
 		C45AF76521E1D9A90064A898 /* TheySaidSoConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheySaidSoConstants.swift; sourceTree = "<group>"; };
 		C45AF76721E1DA380064A898 /* TheySaidSoConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheySaidSoConvenience.swift; sourceTree = "<group>"; };
+		C45AF76A21E1DAFA0064A898 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 				C4568A5021E19D19000C1D0A /* Model */,
 				C4568A5D21E1A479000C1D0A /* View */,
 				C4568A6921E1A934000C1D0A /* TheySaidSo Client */,
+				C45AF76921E1DAA60064A898 /* View Controller */,
 				C4568A6021E1A52B000C1D0A /* Support */,
 				C4568A4021E19A75000C1D0A /* ViewController.swift */,
 				C4568A4521E19A76000C1D0A /* Assets.xcassets */,
@@ -154,6 +157,14 @@
 				C45AF76721E1DA380064A898 /* TheySaidSoConvenience.swift */,
 			);
 			path = "TheySaidSo Client";
+			sourceTree = "<group>";
+		};
+		C45AF76921E1DAA60064A898 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C45AF76A21E1DAFA0064A898 /* CustomTabBarController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		E2E81559CDA4664185BF5508 /* Frameworks */ = {
@@ -285,6 +296,7 @@
 			files = (
 				C4568A6421E1A708000C1D0A /* QuoteCell.swift in Sources */,
 				C4568A5C21E1A331000C1D0A /* DataController.swift in Sources */,
+				C45AF76B21E1DAFA0064A898 /* CustomTabBarController.swift in Sources */,
 				C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */,
 				C4568A5A21E1A2C6000C1D0A /* EditorDefaults.swift in Sources */,
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
