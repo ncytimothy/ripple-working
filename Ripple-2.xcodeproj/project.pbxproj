@@ -29,6 +29,7 @@
 		C45AF76D21E1DB3E0064A898 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76C21E1DB3E0064A898 /* HomeViewController.swift */; };
 		C45AF76F21E1DBB30064A898 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76E21E1DBB30064A898 /* QuoteViewController.swift */; };
 		C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77021E1DC200064A898 /* ActivityViewController.swift */; };
+		C45AF77321E1DC5F0064A898 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		C45AF76C21E1DB3E0064A898 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C45AF76E21E1DBB30064A898 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
 		C45AF77021E1DC200064A898 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +174,7 @@
 				C45AF76C21E1DB3E0064A898 /* HomeViewController.swift */,
 				C45AF76E21E1DBB30064A898 /* QuoteViewController.swift */,
 				C45AF77021E1DC200064A898 /* ActivityViewController.swift */,
+				C45AF77221E1DC5F0064A898 /* CheckInViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				C4568A6B21E1A989000C1D0A /* TheySaidSoClient.swift in Sources */,
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
 				C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */,
+				C45AF77321E1DC5F0064A898 /* CheckInViewController.swift in Sources */,
 				C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */,
 				C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */,
 				C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */,
