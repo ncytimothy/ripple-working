@@ -21,6 +21,7 @@
 		C4568A6421E1A708000C1D0A /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6321E1A708000C1D0A /* QuoteCell.swift */; };
 		C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */; };
 		C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6721E1A833000C1D0A /* ActivityCell.swift */; };
+		C4568A6B21E1A989000C1D0A /* TheySaidSoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C4568A6321E1A708000C1D0A /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
 		C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingCell.swift; sourceTree = "<group>"; };
 		C4568A6721E1A833000C1D0A /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheySaidSoClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				C4568A5021E19D19000C1D0A /* Model */,
 				C4568A5D21E1A479000C1D0A /* View */,
+				C4568A6921E1A934000C1D0A /* TheySaidSo Client */,
 				C4568A6021E1A52B000C1D0A /* Support */,
 				C4568A4021E19A75000C1D0A /* ViewController.swift */,
 				C4568A4521E19A76000C1D0A /* Assets.xcassets */,
@@ -121,6 +124,14 @@
 				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		C4568A6921E1A934000C1D0A /* TheySaidSo Client */ = {
+			isa = PBXGroup;
+			children = (
+				C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */,
+			);
+			path = "TheySaidSo Client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */,
 				C4568A5F21E1A4B5000C1D0A /* HintCell.swift in Sources */,
 				C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */,
+				C4568A6B21E1A989000C1D0A /* TheySaidSoClient.swift in Sources */,
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
 				C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */,
 				C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */,
