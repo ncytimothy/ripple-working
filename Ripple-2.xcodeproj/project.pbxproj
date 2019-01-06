@@ -15,6 +15,7 @@
 		C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5221E19D48000C1D0A /* GCDMain.swift */; };
 		C4568A5521E19D9D000C1D0A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5421E19D9D000C1D0A /* Page.swift */; };
 		C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5621E19E7A000C1D0A /* Ripple-2.xcdatamodeld */; };
+		C4568A5A21E1A2C6000C1D0A /* EditorDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5921E1A2C6000C1D0A /* EditorDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C4568A5221E19D48000C1D0A /* GCDMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDMain.swift; sourceTree = "<group>"; };
 		C4568A5421E19D9D000C1D0A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		C4568A5721E19E7A000C1D0A /* Ripple-2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Ripple-2.xcdatamodel"; sourceTree = "<group>"; };
+		C4568A5921E1A2C6000C1D0A /* EditorDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				C4568A5621E19E7A000C1D0A /* Ripple-2.xcdatamodeld */,
 				C4568A5121E19D3A000C1D0A /* GCD */,
 				C4568A5421E19D9D000C1D0A /* Page.swift */,
+				C4568A5921E1A2C6000C1D0A /* EditorDefaults.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4568A5A21E1A2C6000C1D0A /* EditorDefaults.swift in Sources */,
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
 				C4568A5821E19E7A000C1D0A /* Ripple-2.xcdatamodeld in Sources */,
 				C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */,
