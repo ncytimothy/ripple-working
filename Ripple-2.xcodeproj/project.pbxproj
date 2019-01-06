@@ -33,6 +33,8 @@
 		C45AF77521E1DCC80064A898 /* HintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77421E1DCC80064A898 /* HintViewController.swift */; };
 		C45AF77721E1DD3C0064A898 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */; };
 		C4D10FF921E1EB0600746266 /* HomeViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FF821E1EB0600746266 /* HomeViewController+Extension.swift */; };
+		C4D10FFC21E1EB7A00746266 /* QuoteViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FFB21E1EB7A00746266 /* QuoteViewController+Extension.swift */; };
+		C4D10FFE21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		C45AF77421E1DCC80064A898 /* HintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintViewController.swift; sourceTree = "<group>"; };
 		C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		C4D10FF821E1EB0600746266 /* HomeViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Extension.swift"; sourceTree = "<group>"; };
+		C4D10FFB21E1EB7A00746266 /* QuoteViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewController+Extension.swift"; sourceTree = "<group>"; };
+		C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteViewController+CollectionExtension.swift"; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +163,7 @@
 			children = (
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
 				C4D10FF721E1EAD500746266 /* HomeViewController */,
+				C4D10FFA21E1EB6100746266 /* QuoteViewController */,
 				C4568A6121E1A578000C1D0A /* UIColor+Extensions.swift */,
 				C45AF77621E1DD3C0064A898 /* UIView+Extensions.swift */,
 			);
@@ -194,6 +199,15 @@
 				C4D10FF821E1EB0600746266 /* HomeViewController+Extension.swift */,
 			);
 			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		C4D10FFA21E1EB6100746266 /* QuoteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4D10FFB21E1EB7A00746266 /* QuoteViewController+Extension.swift */,
+				C4D10FFD21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift */,
+			);
+			path = QuoteViewController;
 			sourceTree = "<group>";
 		};
 		E2E81559CDA4664185BF5508 /* Frameworks */ = {
@@ -340,8 +354,10 @@
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
 				C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */,
 				C45AF77321E1DC5F0064A898 /* CheckInViewController.swift in Sources */,
+				C4D10FFE21E1EBBD00746266 /* QuoteViewController+CollectionExtension.swift in Sources */,
 				C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */,
 				C45AF77521E1DCC80064A898 /* HintViewController.swift in Sources */,
+				C4D10FFC21E1EB7A00746266 /* QuoteViewController+Extension.swift in Sources */,
 				C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */,
 				C45AF77121E1DC200064A898 /* ActivityViewController.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
