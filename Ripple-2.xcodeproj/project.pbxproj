@@ -23,6 +23,7 @@
 		C4568A6621E1A7B4000C1D0A /* FeelingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */; };
 		C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6721E1A833000C1D0A /* ActivityCell.swift */; };
 		C4568A6B21E1A989000C1D0A /* TheySaidSoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */; };
+		C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AF76521E1D9A90064A898 /* TheySaidSoConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		C4568A6521E1A7B4000C1D0A /* FeelingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingCell.swift; sourceTree = "<group>"; };
 		C4568A6721E1A833000C1D0A /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheySaidSoClient.swift; sourceTree = "<group>"; };
+		C45AF76521E1D9A90064A898 /* TheySaidSoConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheySaidSoConstants.swift; sourceTree = "<group>"; };
 		E37219455F5628CC908526AF /* Pods-Ripple-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ripple-2/Pods-Ripple-2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				C4568A6A21E1A989000C1D0A /* TheySaidSoClient.swift */,
+				C45AF76521E1D9A90064A898 /* TheySaidSoConstants.swift */,
 			);
 			path = "TheySaidSo Client";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				C4568A5521E19D9D000C1D0A /* Page.swift in Sources */,
 				C4568A6221E1A578000C1D0A /* UIColor+Extensions.swift in Sources */,
 				C4568A6821E1A833000C1D0A /* ActivityCell.swift in Sources */,
+				C45AF76621E1D9A90064A898 /* TheySaidSoConstants.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
