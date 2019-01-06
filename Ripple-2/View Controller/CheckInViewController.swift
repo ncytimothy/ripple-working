@@ -33,7 +33,6 @@ class CheckInViewController: UIViewController, MFMessageComposeViewControllerDel
     let tagButton: UIButton = CheckInViewController.setButtonFor(title: "TAG")
     let cancelButton: UIButton = CheckInViewController.setButtonFor(title: "CANCEL")
     
-    var feelingsLive = [FeelingLive]()
     
     enum FeelingConstants {
         struct ImageName {
