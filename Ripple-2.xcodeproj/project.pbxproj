@@ -12,6 +12,7 @@
 		C4568A4421E19A75000C1D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4568A4221E19A75000C1D0A /* Main.storyboard */; };
 		C4568A4621E19A76000C1D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4568A4521E19A76000C1D0A /* Assets.xcassets */; };
 		C4568A4921E19A76000C1D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4568A4721E19A76000C1D0A /* LaunchScreen.storyboard */; };
+		C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4568A5221E19D48000C1D0A /* GCDMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C4568A4521E19A76000C1D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4568A4821E19A76000C1D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4568A4A21E19A76000C1D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4568A5221E19D48000C1D0A /* GCDMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C4568A3D21E19A75000C1D0A /* Ripple-2 */ = {
 			isa = PBXGroup;
 			children = (
+				C4568A5021E19D19000C1D0A /* Model */,
 				C4568A3E21E19A75000C1D0A /* AppDelegate.swift */,
 				C4568A4021E19A75000C1D0A /* ViewController.swift */,
 				C4568A4221E19A75000C1D0A /* Main.storyboard */,
@@ -62,6 +65,22 @@
 				C4568A4A21E19A76000C1D0A /* Info.plist */,
 			);
 			path = "Ripple-2";
+			sourceTree = "<group>";
+		};
+		C4568A5021E19D19000C1D0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4568A5121E19D3A000C1D0A /* GCD */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4568A5121E19D3A000C1D0A /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				C4568A5221E19D48000C1D0A /* GCDMain.swift */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4568A4121E19A75000C1D0A /* ViewController.swift in Sources */,
+				C4568A5321E19D48000C1D0A /* GCDMain.swift in Sources */,
 				C4568A3F21E19A75000C1D0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
