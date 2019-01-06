@@ -6,6 +6,9 @@
 //  Copyright © 2019 timothyng. All rights reserved.
 //
 
+// Reachabilty provided by ashleymills
+// https://github.com/ashleymills/Reachability.swift/blob/master/README.md
+
 import UIKit
 
 @UIApplicationMain
